@@ -2,35 +2,35 @@ package com.myhome.myboard.dto;
 
 public class UserDto {
 
-	private String userId;
-	private String userName;
-	private String userPwd;
+	private String userid;
+	private String username;
+	private String userpwd;
 	private String useremail;
 	private String address;
 	private String joindate;
 
 	public String getUserId() {
-		return userId;
+		return userid;
 	}
 
 	public void setUserId(String userId) {
-		this.userId = userId;
+		this.userid = userId;
 	}
 
 	public String getUserName() {
-		return userName;
+		return username;
 	}
 
 	public void setUserName(String userName) {
-		this.userName = userName;
+		this.username = userName;
 	}
 
 	public String getUserPwd() {
-		return userPwd;
+		return userpwd;
 	}
 
 	public void setUserPwd(String userPwd) {
-		this.userPwd = userPwd;
+		this.userpwd = userPwd;
 	}
 
 	public String getUseremail() {
